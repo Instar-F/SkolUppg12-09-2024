@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Basic Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #ffa502;
+            color: white;
+            padding: 1em 0;
+        }
+        footer {
+            background-color: #ffa502;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Welcome to My Website</h1>
+                <nav>
+                    <a href="#home" class="btn btn-link text-white">Home</a>
+                    <a href="#about" class="btn btn-link text-white">About</a>
+                    <a href="#contact" class="btn btn-link text-white">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container my-4">
+        <section id="home">
+            <h2>Home</h2>
+            <p>Lorem.</p>
+        </section>
+        
+        <section id="about">
+            <h2>About</h2>
+            <p>Ipsum.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Basic. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
